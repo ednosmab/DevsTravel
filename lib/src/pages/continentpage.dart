@@ -14,7 +14,6 @@ class ContinentPage extends StatelessWidget {
       fontSize: 15, fontWeight: FontWeight.bold, fontFamily: 'Helvetica Neue');
 
   void seeCityAction(context, continentIndex) {
-    print(continentIndex);
     Navigator.pushNamed(context, '/listcity', arguments: continentIndex);
   }
 
@@ -33,7 +32,7 @@ class ContinentPage extends StatelessWidget {
                 title: 'Escolha um Continente',
                 hideSerch: false,
                 drawerShow: true,
-                backShow: true),
+                backShow: false),
             drawer: CustomDrawer(pageContext: context),
             backgroundColor: Theme.of(context).backgroundColor,
             body: ListView.builder(
