@@ -20,6 +20,7 @@ class _CustomDrawer extends State<CustomDrawer> {
   @override
   Widget build(BuildContext context) {
     return Drawer(
+      semanticLabel: 'Menu de navegação',
       child: ListView(
         padding: EdgeInsets.zero,
         children: [

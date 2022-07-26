@@ -50,6 +50,7 @@ class _SearchPage extends State<SearchPage> {
                         doSearch(context, text);
                       },
                       decoration: InputDecoration(
+                          labelText: 'Digite uma cidade no campo de busca',
                           hintText: 'Digite uma cidade',
                           border: OutlineInputBorder(),
                           suffixIcon: Icon(
