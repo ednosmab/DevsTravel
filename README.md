@@ -8,7 +8,7 @@ Uma possível refatoração será fazer uso de uma banco de dados para salvar os
 
 Um dos maiores desfios que eu passei na construção desse app, além da versão do flutter, ministrada no curso, não ser totalmente compátivel com a versão 3.0.5 atualmente usada na minha aplicação, foi criar uma implementação do PreferredSizeWidget para costomatizar o AppBar para deixar o projeto mais manutenível possível.
 
-Aprendi nesse projeto criar telas e formas de navegação entre as mesmas, criar rotas na raiz do projeto, passar parâmetros entre telas. E a cereja do bolo foi consumir uma ##API (Application Programming Interface – Interface de Programação de Aplicações)!! 
+Aprendi nesse projeto criar telas e formas de navegação entre as mesmas, criar rotas na raiz do projeto, passar parâmetros entre telas. E a cereja do bolo foi consumir uma API (Application Programming Interface – Interface de Programação de Aplicações)!! 
 Sempre desejei aprender a usar esse metódo de interação entre tecnologias, já havia feito uso na linguagem PHP, porém, no flutter ver isso, fazer isso acontecer, foi muito significativo!
 
 Tenho um enorme carinho por essa aplicação pois foi através do flutter que eu voltei a me apaixonar pela programação novamente!!!
